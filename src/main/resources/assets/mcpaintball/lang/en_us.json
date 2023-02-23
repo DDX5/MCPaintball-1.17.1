@@ -1,0 +1,108 @@
+{
+  "Comment": "Items",
+  "item.mcpaintball.weapon.pistol.red_pistol": "Red Team Pistol",
+  "item.mcpaintball.weapon.pistol.blue_pistol": "Blue Team Pistol",
+  "item.mcpaintball.weapon.pistol.green_pistol": "Green Team Pistol",
+
+  "item.mcpaintball.weapon.shotgun.green_shotgun": "Green Team Shotgun",
+  "item.mcpaintball.weapon.shotgun.blue_shotgun": "Blue Team Shotgun",
+  "item.mcpaintball.weapon.shotgun.red_shotgun": "Red Team Shotgun",
+
+  "item.mcpaintball.weapon.rifle.green_rifle": "Green Team Rifle",
+  "item.mcpaintball.weapon.rifle.blue_rifle": "Blue Team Rifle",
+  "item.mcpaintball.weapon.rifle.red_rifle": "Red Team Rifle",
+
+  "item.mcpaintball.weapon.bazooka.green_bazooka": "Green Team Bazooka",
+  "item.mcpaintball.weapon.bazooka.blue_bazooka": "Blue Team Bazooka",
+  "item.mcpaintball.weapon.bazooka.red_bazooka": "Red Team Bazooka",
+
+  "item.mcpaintball.armor.red_boots": "Red Team Boots",
+  "item.mcpaintball.armor.blue_boots": "Blue Team Boots",
+  "item.mcpaintball.armor.green_boots": "Green Team Boots",
+
+  "item.mcpaintball.armor.red_leggings": "Red Team Leggings",
+  "item.mcpaintball.armor.blue_leggings": "Blue Team Leggings",
+  "item.mcpaintball.armor.green_leggings": "Green Team Leggings",
+
+  "item.mcpaintball.armor.red_chestplate": "Red Team Chestplate",
+  "item.mcpaintball.armor.blue_chestplate": "Blue Team Chestplate",
+  "item.mcpaintball.armor.green_chestplate": "Green Team Chestplate",
+
+  "item.mcpaintball.armor.red_helmet": "Red Team Helmet",
+  "item.mcpaintball.armor.blue_helmet": "Blue Team Helmet",
+  "item.mcpaintball.armor.green_helmet": "Green Team Helmet",
+
+  "item.mcpaintball.utility.red_remote": "Red Team Remote Detonator",
+  "item.mcpaintball.utility.green_remote": "Green Team Remote Detonator",
+  "item.mcpaintball.utility.blue_remote": "Blue Team Remote Detonator",
+
+  "item.mcpaintball.utility.red_radio": "Red Team Radio",
+  "item.mcpaintball.utility.green_radio": "Green Team Radio",
+  "item.mcpaintball.utility.blue_radio": "Blue Team Radio",
+
+  "item.mcpaintball.utility.crafting.red_weapon_base": "Red Team Weapon Base",
+  "item.mcpaintball.utility.crafting.green_weapon_base": "Green Team Weapon Base",
+  "item.mcpaintball.utility.crafting.blue_weapon_base": "Blue Team Weapon Base",
+
+  "item.mcpaintball.utility.kits.red_standard": "Red Team Standard Class Kit",
+  "item.mcpaintball.utility.kits.green_standard": "Green Team Standard Class Kit",
+  "item.mcpaintball.utility.kits.blue_standard": "Blue Team Standard Class Kit",
+
+  "item.mcpaintball.utility.kits.red_medic": "Red Team Medic Class Kit",
+  "item.mcpaintball.utility.kits.green_medic": "Green Team Medic Class Kit",
+  "item.mcpaintball.utility.kits.blue_medic": "Blue Team Medic Class Kit",
+
+  "item.mcpaintball.utility.kits.red_heavy": "Red Team Heavy Class Kit",
+  "item.mcpaintball.utility.kits.green_heavy": "Green Team Heavy Class Kit",
+  "item.mcpaintball.utility.kits.blue_heavy": "Blue Team Heavy Class Kit",
+
+  "item.mcpaintball.utility.extra.tablet": "Tablet",
+
+  "Comment": "Entities",
+  "entity.mcpaintball.red_paintball": "Red Paintball",
+  "entity.mcpaintball.blue_paintball": "Blue Paintball",
+  "entity.mcpaintball.green_paintball": "Green Paintball",
+
+  "Comment": "Blocks",
+  "block.mcpaintball.utility.red_explosive": "Red Team C4",
+  "block.mcpaintball.utility.blue_explosive": "Blue Team C4",
+  "block.mcpaintball.utility.green_explosive": "Green Team C4",
+
+  "Comment": "CreativeTabs",
+  "itemGroup.mcpaintball.paintball": "Paintballing",
+
+
+  "Comment": "Subtitles",
+  "subtitle.mcpaintball.single": "Paintball Fired",
+  "subtitle.mcpaintball.bazooka": "Bazooka Fired",
+  "subtitle.mcpaintball.ding": "Shot Hit",
+  "subtitle.mcpaintball.splat": "Paintball Splat",
+  "subtitle.mcpaintball.set": "C4 Target Added",
+  "subtitle.mcpaintball.rem": "C4 Target Removed",
+  "subtitle.mcpaintball.det": "Detonate C4",
+  "subtitle.mcpaintball.assist": "Call For Help",
+  "subtitle.mcpaintball.medic": "Call For Medic",
+
+  "Comment":"Text",
+  "text.mcpaintball.crafting": "Crafting Item",
+  "text.mcpaintball.press_shift": "Press Shift To Get More Information",
+
+  "text.mcpaintball.click_heavy": "Right Click Me To Get Your Heavy Class Loadout",
+  "text.mcpaintball.click_standard": "Right Click Me To Get Your Standard Class Loadout",
+  "text.mcpaintball.click_medic": "Right Click Me To Get Your Medic Class Loadout",
+
+  "text.mcpaintball.pistol_spec": "Range: low, Fire Speed: 1s, Bullets: 1",
+  "text.mcpaintball.rifle_spec": "Range: mid, Fire Speed: 0.5s, Bullets: 1",
+  "text.mcpaintball.shotgun_spec": "Range: low, Fire Speed: 1.2s, Bullets: 3",
+  "text.mcpaintball.bazooka_spec": "Range: mid, Fire Speed: 2s, Bullets: 1",
+
+  "text.mcpaintball.c4_spec": "This Block Of Explosive Is Triggered By The Remote",
+  "text.mcpaintball.c4_remote_spec": "Right click a C4 block to link/unlink and Shift Right Click To Detonate",
+
+  "text.mcpaintball.tablet": "Right Click To View Your Score",
+
+  "Comment": "Key Bindings",
+  "key.category.mcpaintball": "MCPaintball Radio",
+  "key.mcpaintball.assist": "Call For Help",
+  "key.mcpaintball.medic": "Call For Medic"
+}

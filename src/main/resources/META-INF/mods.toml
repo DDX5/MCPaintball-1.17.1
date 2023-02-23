@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT"
+[[mods]]
+modId="mcpaintball"
+version="1.0.0-Beta1"
+displayName="1.0.0-Beta1"
+authors="Multicoder"
+description='''Minecraft paintball mod adds a vanilla way to paintball and have fun with friends'''
+[[dependencies.mcpaintball]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mcpaintball]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"

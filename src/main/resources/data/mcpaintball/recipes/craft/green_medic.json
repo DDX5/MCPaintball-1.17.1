@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "iTi",
+        "/ /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:green_wool"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "T": {
+            "item": "mcpaintball:utility/crafting/green_weapon_base"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mcpaintball:utility/kits/green_medic",
+        "count": 1
+    }
+}

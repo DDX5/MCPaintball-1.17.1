@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mcpaintball:item/utility/crafting/green_weapons_base"
+  }
+}

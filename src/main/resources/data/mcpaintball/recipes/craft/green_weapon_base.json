@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "iii",
+        "i  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:green_dye"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "mcpaintball:utility/crafting/green_weapon_base",
+        "count": 1
+    }
+}

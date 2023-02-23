@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "iTi",
+        "/ /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_wool"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "T": {
+            "item": "mcpaintball:utility/crafting/red_weapon_base"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mcpaintball:utility/kits/red_medic",
+        "count": 1
+    }
+}
