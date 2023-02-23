@@ -1,5 +1,6 @@
 package org.multicoder.mcpaintball.network.packets;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.entity.player.Player;
@@ -19,7 +20,7 @@ public class TeamUpdateS2CPacket
     public boolean handlePacket(Supplier<NetworkEvent.Context> supplier)
     {
         NetworkEvent.Context ctx = supplier.get();
-        Player player = ctx.getSender();
+        Player player = Minecraft.getInstance().player;
         Level level = player.level;
         ClientPlayerTeamData.SetTeam(Team);
         player.sendMessage(new TextComponent("Team Updated To: " + Team),null);

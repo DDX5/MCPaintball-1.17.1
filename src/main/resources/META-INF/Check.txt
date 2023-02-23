@@ -1,0 +1,5 @@
+Mod Loader: Forge
+Game Version: 1.17.1
+Mod Version: 1.0.0 Beta 1
+Checked Date: 23/02/2023
+Checked By: Multicoder
