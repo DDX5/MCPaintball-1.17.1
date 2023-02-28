@@ -2,6 +2,7 @@ package org.multicoder.mcpaintball;
 
 
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.world.entity.EntityType;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -48,6 +49,9 @@ public class MCPaintball
         event.registerEntityRenderer((EntityType)entityinit.BLUE_PAINTBALL_HEAVY.get(), BluePaintballHeavyArrowRenderer::new);
         event.registerEntityRenderer((EntityType)entityinit.GREEN_PAINTBALL_HEAVY.get(), GreenPaintballHeavyArrowRenderer::new);
 
+        event.registerEntityRenderer(entityinit.RED_GRENADE.get(), ThrownItemRenderer::new);
+        event.registerEntityRenderer(entityinit.BLUE_GRENADE.get(), ThrownItemRenderer::new);
+        event.registerEntityRenderer(entityinit.GREEN_GRENADE.get(), ThrownItemRenderer::new);
     }
 
     private void OnCommon(FMLCommonSetupEvent event)

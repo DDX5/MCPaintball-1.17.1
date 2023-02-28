@@ -41,6 +41,7 @@ public class RedTeamHeavy extends Item
             player.drop(new ItemStack(iteminit.RED_BAZOOKA.get()), true);
             player.drop(new ItemStack(iteminit.RED_PISTOL.get()), true);
             player.drop(new ItemStack(blockinit.RED_EXPLOSIVE.get(), 16), true);
+            player.drop(new ItemStack(iteminit.RED_GRENADE.get(),24),true);
             player.drop(new ItemStack(iteminit.TABLET.get()),true);
             player.getItemInHand(pUsedHand).shrink(1);
             player.getCapability(PlayerTeamCapabilityProvider.CAPABILITY).ifPresent(cap ->{

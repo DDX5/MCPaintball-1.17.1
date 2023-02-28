@@ -41,6 +41,7 @@ public class GreenTeamHeavy extends Item
             player.drop(new ItemStack(iteminit.GREEN_BAZOOKA.get()), true);
             player.drop(new ItemStack(iteminit.GREEN_PISTOL.get()), true);
             player.drop(new ItemStack(blockinit.GREEN_EXPLOSIVE.get(), 16), true);
+            player.drop(new ItemStack(iteminit.GREEN_GRENADE.get(),24),true);
             player.drop(new ItemStack(iteminit.TABLET.get()),true);
             player.getItemInHand(pUsedHand).shrink(1);
             player.getCapability(PlayerTeamCapabilityProvider.CAPABILITY).ifPresent(cap ->{

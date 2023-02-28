@@ -20,4 +20,8 @@ public class entityinit
     public static final RegistryObject<EntityType<?>> BLUE_PAINTBALL_HEAVY = ENTITY_TYPES.register("blue_paintball_heavy",() -> EntityType.Builder.of(BluePaintballHeavyArrowEntity::new, MobCategory.MISC).sized(0.5f,0.5f).build("blue_paintball_heavy"));
     public static final RegistryObject<EntityType<?>> GREEN_PAINTBALL_HEAVY = ENTITY_TYPES.register("green_paintball_heavy",() -> EntityType.Builder.of(GreenPaintballHeavyArrowEntity::new, MobCategory.MISC).sized(0.5f,0.5f).build("green_paintball_heavy"));
 
+    public static final RegistryObject<EntityType<RedGrenade>> RED_GRENADE = ENTITY_TYPES.register("red_grenade",() -> EntityType.Builder.<RedGrenade>of(RedGrenade::new, MobCategory.MISC).sized(1f,1f).build("red_grenade"));
+    public static final RegistryObject<EntityType<GreenGrenade>> GREEN_GRENADE = ENTITY_TYPES.register("green_grenade",() -> EntityType.Builder.<GreenGrenade>of(GreenGrenade::new, MobCategory.MISC).sized(1f,1f).build("green_grenade"));
+    public static final RegistryObject<EntityType<BlueGrenade>> BLUE_GRENADE = ENTITY_TYPES.register("blue_grenade",() -> EntityType.Builder.<BlueGrenade>of(BlueGrenade::new, MobCategory.MISC).sized(1f,1f).build("blue_grenade"));
+
 }

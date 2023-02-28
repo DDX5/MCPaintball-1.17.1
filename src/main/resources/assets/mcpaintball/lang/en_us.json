@@ -36,10 +36,6 @@
   "item.mcpaintball.utility.green_remote": "Green Team Remote Detonator",
   "item.mcpaintball.utility.blue_remote": "Blue Team Remote Detonator",
 
-  "item.mcpaintball.utility.red_radio": "Red Team Radio",
-  "item.mcpaintball.utility.green_radio": "Green Team Radio",
-  "item.mcpaintball.utility.blue_radio": "Blue Team Radio",
-
   "item.mcpaintball.utility.crafting.red_weapon_base": "Red Team Weapon Base",
   "item.mcpaintball.utility.crafting.green_weapon_base": "Green Team Weapon Base",
   "item.mcpaintball.utility.crafting.blue_weapon_base": "Blue Team Weapon Base",
@@ -58,10 +54,17 @@
 
   "item.mcpaintball.utility.extra.tablet": "Tablet",
 
+  "item.mcpaintball.utility.grenades.red_grenade": "Red Grenade",
+  "item.mcpaintball.utility.grenades.blue_grenade": "Blue Grenade",
+  "item.mcpaintball.utility.grenades.green_grenade": "Green Grenade",
+
   "Comment": "Entities",
   "entity.mcpaintball.red_paintball": "Red Paintball",
   "entity.mcpaintball.blue_paintball": "Blue Paintball",
   "entity.mcpaintball.green_paintball": "Green Paintball",
+  "entity.mcpaintball.red_grenade": "Red Grenade",
+  "entity.mcpaintball.blue_grenade": "Blue Grenade",
+  "entity.mcpaintball.green_grenade": "Green Grenade",
 
   "Comment": "Blocks",
   "block.mcpaintball.utility.red_explosive": "Red Team C4",
@@ -80,8 +83,7 @@
   "subtitle.mcpaintball.set": "C4 Target Added",
   "subtitle.mcpaintball.rem": "C4 Target Removed",
   "subtitle.mcpaintball.det": "Detonate C4",
-  "subtitle.mcpaintball.assist": "Call For Help",
-  "subtitle.mcpaintball.medic": "Call For Medic",
+  "subtitle.mcpaintball.grenade": "Grenade Thrown",
 
   "Comment":"Text",
   "text.mcpaintball.crafting": "Crafting Item",
@@ -101,8 +103,7 @@
 
   "text.mcpaintball.tablet": "Right Click To View Your Score",
 
-  "Comment": "Key Bindings",
-  "key.category.mcpaintball": "MCPaintball Radio",
-  "key.mcpaintball.assist": "Call For Help",
-  "key.mcpaintball.medic": "Call For Medic"
+  "text.mcpaintball.grenade": "A simple throwable grenade designed to kill and destroy, Right click to throw",
+  "text.mcpaintball.grenade_funny": "if you hear a pin pull and you didn't pull it watch out, \"Wait What Was That Noi...\""
+
 }

@@ -40,5 +40,11 @@
     "sounds": [
       "mcpaintball:rem"
     ]
+  },
+  "grenade": {
+    "subtitle": "subtitle.mcpaintball.grenade",
+    "sounds": [
+      "mcpaintball:grenade"
+    ]
   }
 }

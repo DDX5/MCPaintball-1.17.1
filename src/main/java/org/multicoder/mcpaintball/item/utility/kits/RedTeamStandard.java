@@ -40,6 +40,7 @@ public class RedTeamStandard extends Item
             player.drop(new ItemStack(iteminit.RED_RIFLE.get()), true);
             player.drop(new ItemStack(iteminit.RED_PISTOL.get()), true);
             player.drop(new ItemStack(iteminit.RED_REMOTE.get()), true);
+            player.drop(new ItemStack(iteminit.RED_GRENADE.get(),48),true);
             player.drop(new ItemStack(iteminit.TABLET.get()),true);
             player.getItemInHand(pUsedHand).shrink(1);
             player.getCapability(PlayerTeamCapabilityProvider.CAPABILITY).ifPresent(cap ->{

@@ -3,8 +3,8 @@ loaderVersion="[37,)"
 license="MIT"
 [[mods]]
 modId="mcpaintball"
-version="1.0.0-Beta1"
-displayName="1.0.0-Beta1"
+version="1.0.0-Beta2"
+displayName="MC Paintball"
 authors="Multicoder"
 description='''Minecraft paintball mod adds a vanilla way to paintball and have fun with friends'''
 [[dependencies.mcpaintball]]

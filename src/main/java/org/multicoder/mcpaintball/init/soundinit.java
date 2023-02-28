@@ -22,6 +22,7 @@ public class soundinit
     public static final RegistryObject<SoundEvent> REM = RegSound("rem");
 
     public static final RegistryObject<SoundEvent> DET = RegSound("det");
+    public static final RegistryObject<SoundEvent> GRENADE = RegSound("grenade");
 
     public static RegistryObject<SoundEvent> RegSound(String name)
     {

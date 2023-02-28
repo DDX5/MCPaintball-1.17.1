@@ -33,10 +33,13 @@ public class MCPaintballEvents
     }
     @SubscribeEvent
     public static void onPlayerCloned(PlayerEvent.Clone event) {
-        if(event.isWasDeath()) {
+        if(event.isWasDeath())
+        {
+            event.getOriginal().reviveCaps();
             event.getOriginal().getCapability(PlayerTeamCapabilityProvider.CAPABILITY).ifPresent(oldStore -> {
-                event.getOriginal().getCapability(PlayerTeamCapabilityProvider.CAPABILITY).ifPresent(newStore -> {
+                event.getEntity().getCapability(PlayerTeamCapabilityProvider.CAPABILITY).ifPresent(newStore -> {
                     newStore.CopyFrom(oldStore);
+                    event.getOriginal().invalidateCaps();
                 });
             });
         }

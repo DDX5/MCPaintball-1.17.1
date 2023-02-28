@@ -12,6 +12,9 @@ import org.multicoder.mcpaintball.item.utility.crafting.BlueWeaponBase;
 import org.multicoder.mcpaintball.item.utility.crafting.GreenWeaponBase;
 import org.multicoder.mcpaintball.item.utility.crafting.RedWeaponBase;
 import org.multicoder.mcpaintball.item.utility.extra.TabletItem;
+import org.multicoder.mcpaintball.item.utility.grenades.BlueGrenadeItem;
+import org.multicoder.mcpaintball.item.utility.grenades.GreenGrenadeItem;
+import org.multicoder.mcpaintball.item.utility.grenades.RedGrenadeItem;
 import org.multicoder.mcpaintball.item.utility.kits.*;
 import org.multicoder.mcpaintball.item.utility.remote.BlueRemote;
 import org.multicoder.mcpaintball.item.utility.remote.GreenRemote;
@@ -82,6 +85,11 @@ public class iteminit
     public static final RegistryObject<Item> RED_HEAVY = ITEMS.register("utility/kits/red_heavy", RedTeamHeavy::new);
     public static final RegistryObject<Item> BLUE_HEAVY = ITEMS.register("utility/kits/blue_heavy", BlueTeamHeavy::new);
     public static final RegistryObject<Item> GREEN_HEAVY = ITEMS.register("utility/kits/green_heavy", GreenTeamHeavy::new);
+
+    // Grenades //
+    public static final RegistryObject<Item> RED_GRENADE = ITEMS.register("utility/grenades/red_grenade", RedGrenadeItem::new);
+    public static final RegistryObject<Item> GREEN_GRENADE = ITEMS.register("utility/grenades/green_grenade", GreenGrenadeItem::new);
+    public static final RegistryObject<Item> BLUE_GRENADE = ITEMS.register("utility/grenades/blue_grenade", BlueGrenadeItem::new);
 
     // Extra //
     public static final RegistryObject<Item> TABLET = ITEMS.register("utility/extra/tablet", TabletItem::new);
